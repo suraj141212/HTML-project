@@ -1,0 +1,55 @@
+.main{
+	display: grid;
+	grid-gap:20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+body{
+	background-color: rgb(255, 223, 188);	
+}
+.this{
+	color:black;
+}
+.month,.this{
+	cursor:pointer;
+	font-family:Comic Sans MS;
+	text-align: center;
+	font-size: 2.5em;
+	border:1px solid #bbb;
+    border-radius:10px;
+    transition: all 0.3s linear;
+}
+.month:hover, .this:hover{
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+.month{
+    padding-bottom: 4px;
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+	font-family:Comic Sans MS;
+}
+
+a { 
+    color: black;
+}
+
+.green{
+     background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%);
+}
+.red{
+     background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); 
+}
+.yellow{
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%);
+}
+.blue{
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%);
+}
+.purple {
+     background: -webkit-linear-gradient(top, #A88BEB 0%,#F1A7F1 44%,#F8CEEC 100%); 
+}
+.brown {
+    background: -webkit-linear-gradient(top, #f6e6b4 0%,#ed9017 100%); 
+}

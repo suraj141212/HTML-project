@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta>
+	<title>Interactive Calander</title>
+	<link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<h1>Calander</h1>	
+	<div>
+			<p class="this">Date: <span id="datetime"></span></p>
+		<script class="this">
+		var dt = new Date();
+		document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+		</script>
+	</div>
+	<div class="main">
+		<div class="month green"><a href="jan.html">January</a></div>
+		<div class="month red"><a href="feb.html">February</a></div>
+		<div class="month blue"><a href="mar.html">March</a></div>
+		<div class="month yellow"><a href="apr.html">April</a></div>
+		<div class="month purple"><a href="may.html">May</a></div>
+		<div class="month brown"><a href="jun.html">June</a></div>
+		<div class="month green"><a href="jul.html">July</a></div>
+		<div class="month red"><a href="aug.html">August</a></div>
+		<div class="month blue"><a href="sep.html">September</a></div>
+		<div class="month yellow"><a href="oct.html">October</a></div>
+		<div class="month purple"><a href="nov.html">November</a></div>
+		<div class="month brown"><a href="dec.html">December</a></div>
+	</div>
+	<br>
+	<button><a href="about.html">About us</a></button>
+	<button><a href="contact.html">Contact us</a></button>
+</body>
+</html>
